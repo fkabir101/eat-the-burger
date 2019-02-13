@@ -2,7 +2,7 @@ const router = require("express").Router();
 const apiRoutes = require("./apiRoutes");
 
 
-router.use("/burger", apiRoutes);
+router.use("/", apiRoutes);
 
 
 module.exports = router;
